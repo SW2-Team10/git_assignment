@@ -5,6 +5,7 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new Fibonacci(),
+			new SummationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
