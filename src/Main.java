@@ -9,6 +9,9 @@ public class Main {
 			new SphereArea(),
 		//	new Fibonacci(),
 			new PowerN()
+
+			new Fibonacci(),
+			new PowerN(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();

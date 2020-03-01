@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class PowerN implements ISubscriber{
+
     double r = 1.0 ;
     public static double PowerNCalc(int p)
     {
