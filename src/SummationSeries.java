@@ -7,6 +7,6 @@ public class SummationSeries implements ISubscriber {
         for (int i = n; i > 0; i--) {
             sum += i;
         }
-        System.out.println(sum);
+        System.out.println("summation series "+sum);
     }
 }

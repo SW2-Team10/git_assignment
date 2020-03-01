@@ -5,7 +5,10 @@ public class Main {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
 			new SummationSeries(),
-			new CircleVolume()
+			new CircleVolume(),
+			new SphereArea(),
+		//	new Fibonacci(),
+			new PowerN()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
