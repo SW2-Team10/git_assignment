@@ -7,6 +7,9 @@ public class Main {
 			new SummationSeries(),
 			new CircleVolume(),
 			new SphereArea(),
+		//	new Fibonacci(),
+			new PowerN()
+
 			new Fibonacci(),
 			new PowerN(),
 	};

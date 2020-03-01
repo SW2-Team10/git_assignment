@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class PowerN
-{
+public class PowerN implements ISubscriber{
+
     double r = 1.0 ;
     public static double PowerNCalc(int p)
     {
@@ -28,20 +28,11 @@ public class PowerN
         return 0 ;
     }
 
-    public static void main (String arg[])
-    {
-        Scanner sc=new Scanner(System.in);
 
-        System.out.println("enter power");
-
-        int p=sc.nextInt();
-
-        double res = PowerNCalc(p);
-
-        System.out.println(res);
+    @Override
+    public void notifySubscriber(String input) {
+        System.out.println("PowerN = "+PowerNCalc(Integer.parseInt(input)));
     }
-
-
 }
 
 
