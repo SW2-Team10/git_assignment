@@ -7,6 +7,7 @@ public class Main {
 			new SummationSeries(),
 			new CircleVolume(),
 		        new Fibonacci(),
+			new SphereArea(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
