@@ -9,7 +9,7 @@ public class Main {
 			new SphereArea(),
 			new Fibonacci(),
 			new PowerN(),
-			new CircleArea()
+			new MultiplicationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
