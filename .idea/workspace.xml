@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="7fcf2586-7c1d-480f-b0bd-0cf79b6e38c4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/CircleArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
@@ -11,9 +10,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-=======
-    <list default="true" id="afa5a041-065e-49e4-ac94-f3386e490e40" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-<<<<<<< Updated upstream
   <component name="ProjectId" id="1YaA9Elogt2ldM8ON5apDFjb1yP" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
-=======
-  <component name="ProjectId" id="1Ya3p6UF5OSsZ3nEG80fajdbw6K" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
->>>>>>> Stashed changes
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,11 +46,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-<<<<<<< Updated upstream
-      <module name="git_assignment" />
-=======
       <module name="git_assignment2" />
->>>>>>> Stashed changes
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,19 +62,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< Updated upstream
       <changelist id="7fcf2586-7c1d-480f-b0bd-0cf79b6e38c4" name="Default Changelist" comment="" />
       <created>1583170179331</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583170179331</updated>
-=======
-      <changelist id="afa5a041-065e-49e4-ac94-f3386e490e40" name="Default Changelist" comment="" />
-      <created>1583167057409</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1583167057409</updated>
->>>>>>> Stashed changes
     </task>
     <servers />
   </component>
