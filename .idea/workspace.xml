@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7fcf2586-7c1d-480f-b0bd-0cf79b6e38c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/CircleVolume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/CircleVolume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/ISubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/ISubscriber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/MultiplicationSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/MultiplicationSeries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/PowerN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/PowerN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/ReallySimpleSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/ReallySimpleSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/SimpleSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/SimpleSubscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/SphereArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/SphereArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/SummationSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/SummationSeries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/git_assignment2/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/git_assignment2/Topic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583170179331</updated>
-      <workItem from="1583254837133" duration="2059000" />
+      <workItem from="1583254837133" duration="2416000" />
     </task>
     <servers />
   </component>
