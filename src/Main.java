@@ -9,7 +9,8 @@ public class Main {
 			new SphereArea(),
 			new Fibonacci(),
 			new PowerN(),
-			new MultiplicationSeries()
+			new MultiplicationSeries(),
+			new CircleArea()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -20,6 +21,7 @@ public class Main {
 		System.out.println("4- Fibonacci");
 		System.out.println("5- PowerN");
 		System.out.println("6- MultiplicationSeries");
+		System.out.println("7- CircleArea");
 		Scanner sc = new Scanner(System.in);
 		int ch = sc.nextInt();
 		ISubscriber choice;
@@ -29,7 +31,8 @@ public class Main {
 			case 3:choice = new SphereArea();break;
 			case 4:choice = new Fibonacci();break;
 			case 5:choice = new PowerN();break;
-			default:choice = new MultiplicationSeries();
+			case 6:choice = new MultiplicationSeries();break;
+			default:choice = new CircleArea();
 		}
 		mathTopic.addSubscriber(choice);
 		String input = sc.next();
