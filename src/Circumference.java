@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main2;
+package main;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Circumference implements ISubscriber{
       double circumference= Math.PI * 2*radius;
       System.out.println( "The circumference of the circle is:"+circumference) ;
     }
-  @Override
+ @Override
     public void notifySubscriber(String input) {
         double r = Double.parseDouble(input);
        Circumferencefun(r);
