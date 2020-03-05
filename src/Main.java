@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
+			new SimpleSubscriber(),
+			new ReallySimpleSubscriber(),
 			new SummationSeries(),
 			new CircleVolume(),
 			new SphereArea(),
@@ -9,7 +11,8 @@ public class Main {
 			new PowerN(),
 			new MultiplicationSeries(),
 			new CircleArea(),
-                        new Circumference(),
+      new SphereVolume (),
+      new Circumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -21,10 +24,12 @@ public class Main {
 		System.out.println("5- PowerN");
 		System.out.println("6- MultiplicationSeries");
 		System.out.println("7- CircleArea");
+    System.out.println("8-SphereVolume") ; 
 		System.out.println("8- Apply all");
-               System.out.println("9- Circumference");
+    System.out.println("9- Circumference");
 		Scanner sc = new Scanner(System.in);
 		int ch = sc.nextInt();
+		ISubscriber choice;
 		switch (ch){
 			case 1:mathTopic.addSubscriber(new SummationSeries());break;
 			case 2:mathTopic.addSubscriber(new CircleVolume());break;
@@ -39,6 +44,7 @@ public class Main {
 					mathTopic.addSubscriber(subscriber);
 				}
 		}
+		mathTopic.addSubscriber(choice);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
 	}
