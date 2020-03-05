@@ -11,8 +11,8 @@ public class Main {
 			new PowerN(),
 			new MultiplicationSeries(),
 			new CircleArea(),
-                        new SphereVolume ()
-                
+      new SphereVolume (),
+      new Circumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -24,19 +24,25 @@ public class Main {
 		System.out.println("5- PowerN");
 		System.out.println("6- MultiplicationSeries");
 		System.out.println("7- CircleArea");
-                System.out.println("8-SphereVolume") ; 
+    System.out.println("8-SphereVolume") ; 
+		System.out.println("8- Apply all");
+    System.out.println("9- Circumference");
 		Scanner sc = new Scanner(System.in);
 		int ch = sc.nextInt();
 		ISubscriber choice;
 		switch (ch){
-			case 1:choice = new SummationSeries();break;
-			case 2:choice = new CircleVolume();break;
-			case 3:choice = new SphereArea();break;
-			case 4:choice = new Fibonacci();break;
-			case 5:choice = new PowerN();break;
-			case 6:choice = new MultiplicationSeries();break;
-                        case 7:choice = new CircleArea(); break ; 
-                        default: choice = new SphereVolume() ; 
+			case 1:mathTopic.addSubscriber(new SummationSeries());break;
+			case 2:mathTopic.addSubscriber(new CircleVolume());break;
+			case 3:mathTopic.addSubscriber(new SphereArea());break;
+			case 4:mathTopic.addSubscriber(new Fibonacci());break;
+			case 5:mathTopic.addSubscriber(new PowerN());break;
+			case 6:mathTopic.addSubscriber(new MultiplicationSeries());break;
+			case 7:mathTopic.addSubscriber(new CircleArea());break;
+                        case 9:mathTopic.addSubscriber(new Circumference());break;
+      			default:
+				for(ISubscriber subscriber:subscribers){
+					mathTopic.addSubscriber(subscriber);
+				}
 		}
 		mathTopic.addSubscriber(choice);
 		String input = sc.next();
